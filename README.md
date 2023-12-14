@@ -1,11 +1,11 @@
-# Recipe-Calories-Prediction-Model
+# Recipe Calories Prediction Model
 **Author**: Maya Que
 
 ## Project Overview
-This is a data science project on investigating the relationship between details of the recipe and the time it takes for completion, in order to construct a model that classifies recipes in terms of time consumption. This project is for DSC80 at UCSD. The dataset used is originally scrapped from [this source](https://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19c.pdf). This project is for DSC80 at UCSD. The exploratory data analysis on this dataset can be found [here](https://m-que.github.io/Recipes-Ratings-Project/).
+This is a data science project investigating the relationship between the details of the recipe and its caloric content to construct a model that predicts a recipe's calories. The dataset used is originally scrapped from [this source](https://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19c.pdf). The exploratory data analysis on this dataset can be found [here](https://m-que.github.io/Recipes-Ratings-Project/).
 
 ---
-## Framing the Problem
+## Problem Identification
 With health and wellness becoming a growing trend, understanding the caloric content of a dish is not only pivotal for investigating the nutritional composition of a meal but also contributes to making informed and health-conscious dietary choices. The caloric content of a recipe can serve as a valuable tool for dieticians, chefs, home cooks, and more, providing users with the information needed to create meals that are not only delicious but also mindful of their nutritional impact. 
 
 Recognizing this need, this project aims to develop a predictive regression model that uses a number of factors, such as the number of steps (`n_steps`), number of ingredients (`n_ingredients`), and nutritional information (`total fat (PDV)`, `sugar (PDV)`, `sodium (PDV)`, `protein (PDV)`, `saturated fat (PDV)`, `carbohydrates (PDV)`) to predict the number of calories in a recipe. By doing so, this project seeks to equip individuals with the knowledge they need to make informed choices that align with their dietary preferences, health goals, and overall well-being. 
