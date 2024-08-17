@@ -2,6 +2,8 @@
 **Author**: Maya Que
 
 ## Project Overview
+[Website](https://m-que.github.io/Recipe-Calories-Prediction-Model/)
+
 This is a data science project investigating the relationship between the details of the recipe and its caloric content to construct a model that predicts a recipe's calories. The dataset used is originally scrapped from [this source](https://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19c.pdf). The exploratory data analysis on this dataset can be found [here](https://m-que.github.io/Recipes-Ratings-Project/).
 
 ---
